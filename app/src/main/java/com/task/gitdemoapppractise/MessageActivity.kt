@@ -1,6 +1,8 @@
 package com.task.gitdemoapppractise
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -11,10 +13,15 @@ class MessageActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_message)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+       val screen1 = findViewById<TextView>(R.id.screen1)
+        val screen2 = findViewById<TextView>(R.id.screen2)
+        val screen3 = findViewById<TextView>(R.id.screen3)
+        val screen4 = findViewById<TextView>(R.id.screen4)
+        screen1.setOnClickListener {
+            val intent = Intent(this, HomeActivity::class.java)
+            startActivity(intent)
         }
+
+
     }
 }

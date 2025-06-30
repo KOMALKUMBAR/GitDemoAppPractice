@@ -13,6 +13,9 @@
         android:theme="@style/Theme.GitDemoAppPractise"
         tools:targetApi="31">
         <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".MessageActivity"
             android:exported="false" />
         <activity

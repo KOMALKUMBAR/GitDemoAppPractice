@@ -8,14 +8,50 @@
     tools:context=".MessageActivity">
 
     <TextView
-        android:id="@+id/click"
+        android:id="@+id/screen1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello komal!"
+        android:text="Model1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/screen2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Model4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.688" />
+
+    <TextView
+        android:id="@+id/screen3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="model3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623" />
+
+    <TextView
+        android:id="@+id/screen4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Model 2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
