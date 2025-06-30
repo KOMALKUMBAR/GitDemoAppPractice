@@ -25,6 +25,11 @@ class MessageActivity : AppCompatActivity() {
             val intent = Intent(this, ScreenTwoActivity::class.java)
             startActivity(intent)
         }
+        screen3.setOnClickListener {
+            val intent = Intent(this, ScreenThreeActivity::class.java)
+            startActivity(intent)
+        }
+
 
 
     }
